@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Advocacia com foco em previdenciário, sucessões, família, consumidor e trânsito."
+    />
+    <title>Jucimeire Barbosa | Advocacia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brandBlue: "#02192D",
+              brandBrown: "#926B4C",
+              brandGold: "#F9CD9D",
+              brandGreen: "#29A71A",
+              inputStroke: "#CED4DA",
+            },
+            fontFamily: { sans: ["Inter", "system-ui", "sans-serif"] },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body class="font-sans text-brandBlue">
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <div
+      class="fixed left-0 top-0 z-[1000] w-full bg-brandBrown/95 backdrop-blur-sm"
+    >
+      <div
+        class="mx-auto flex min-h-[74px] w-full max-w-[1600px] items-center justify-between px-4 md:min-h-[118px] md:px-6"
+      >
+        <img
+          src="./assets/images/logo-header.png"
+          alt="Logo Jucimeire Barbosa"
+          class="h-[52px] w-auto object-cover md:h-[85px] md:w-[357px]"
+        />
+        <button
+          id="menu-toggle"
+          class="rounded-md border border-white px-3 py-2 text-sm font-semibold text-white lg:hidden"
+          aria-expanded="false"
+          aria-controls="menu-mobile"
+        >
+          Menu
+        </button>
+        <nav
+          class="hidden items-center gap-4 text-[15px] text-white lg:flex"
+          aria-label="Navegação principal"
+        >
+          <a href="#inicio">Inicio</a>
+          <a href="#areas">Áreas de Atuação</a>
+          <a href="#localizacao">Localização</a>
+          <a href="#contato">Contato</a>
+          <a href="#sobre">Sobre mim</a>
+          <a href="#diferenciais">Diferenciais</a>
+          <a href="#duvidas">Dúvidas</a>
+          <a href="#fale-conosco">Fale Conosco</a>
+        </nav>
+      </div>
+      <nav
+        id="menu-mobile"
+        class="hidden border-t border-white/20 px-4 pb-4 pt-3 text-white lg:hidden"
+        aria-label="Menu mobile"
+      >
+        <div class="mx-auto grid w-full max-w-[1600px] gap-1">
+          <a href="#inicio" class="rounded px-2 py-2 text-sm hover:bg-white/10"
+            >Inicio</a
+          >
+          <a href="#areas" class="rounded px-2 py-2 text-sm hover:bg-white/10"
+            >Áreas de Atuação</a
+          >
+          <a
+            href="#localizacao"
+            class="rounded px-2 py-2 text-sm hover:bg-white/10"
+            >Localização</a
+          >
+          <a href="#contato" class="rounded px-2 py-2 text-sm hover:bg-white/10"
+            >Contato</a
+          >
+          <a href="#sobre" class="rounded px-2 py-2 text-sm hover:bg-white/10"
+            >Sobre mim</a
+          >
+          <a
+            href="#diferenciais"
+            class="rounded px-2 py-2 text-sm hover:bg-white/10"
+            >Diferenciais</a
+          >
+          <a href="#duvidas" class="rounded px-2 py-2 text-sm hover:bg-white/10"
+            >Dúvidas</a
+          >
+          <a
+            href="#fale-conosco"
+            class="rounded px-2 py-2 text-sm hover:bg-white/10"
+            >Fale Conosco</a
+          >
+        </div>
+      </nav>
+    </div>
+
+    <div id="site-frame">
+      <div id="site-scale-root">
+        <header
+          id="inicio"
+          class="min-h-[1072px] bg-[linear-gradient(90deg,rgba(146,107,76,0.95)_13%,rgba(146,107,76,0.12)_57%,rgba(146,107,76,0)_100%),url('./assets/images/bg-hero.png')] bg-cover bg-center bg-no-repeat"
+        >
+          <div class="mx-auto w-[1600px] pl-2 pt-[294px]">
+            <h1
+              class="m-0 max-w-[920px] text-[64px] font-normal leading-[1.056] text-white"
+            >
+              Justiça com <strong>propósito</strong>,<br />
+              Direito com <strong>responsabilidade</strong><br />
+              e <strong>respeito</strong> por cada história.
+            </h1>
+            <div
+              class="mt-[35px] flex h-[58px] w-[360px] items-center gap-[14px] rounded-[15px] border border-white px-[16px] pl-[10px] text-[24px] leading-none text-white"
+            >
+              <img
+                src="./assets/images/icon-location-outline.svg"
+                alt=""
+                class="h-[40px] w-[30px] object-contain"
+              />
+              <span class="whitespace-nowrap">Paraíso do Tocantins - TO</span>
+            </div>
+          </div>
+        </header>
+
+        <main id="conteudo">
+          <section
+            id="areas"
+            class="min-h-[1080px] bg-brandBlue pt-[114px] text-white"
+          >
+            <div class="mx-auto w-[1600px]">
+              <h2
+                class="m-0 text-center text-[55px] font-semibold leading-[1.056]"
+              >
+                Como nós podemos te ajudar?
+              </h2>
+              <img
+                src="./assets/images/divider-gold.svg"
+                alt=""
+                class="mx-auto mt-5 block h-[14px] w-[397px] object-cover"
+              />
+              <div class="mt-[83px] grid grid-cols-2 gap-x-[78px] gap-y-[75px]">
+                <article
+                  class="relative min-h-[187px] rounded-[32px] border-[3px] border-brandGold px-[34px] pb-[20px] pl-[162px] pt-[24px]"
+                >
+                  <img
+                    class="absolute left-[40px] top-1/2 h-[-webkit-fill-available] max-w-[92px] -translate-y-1/2 object-contain"
+                    src="./assets/images/icon-areas-previdenciario.svg"
+                    alt=""
+                  />
+                  <h3
+                    class="mb-3 mt-0 text-[30px] font-semibold leading-[1.08]"
+                  >
+                    Direito Previdenciário
+                  </h3>
+                  <p class="m-0 text-[20px] leading-[1.14]">
+                    Atuação na concessão e revisão de benefícios
+                    previdenciários, como aposentadoria, pensão por morte,
+                    auxílio-doença, BPC/LOAS e outros direitos garantidos pela
+                    Previdência Social.
+                  </p>
+                </article>
+                <article
+                  class="relative min-h-[187px] rounded-[32px] border-[3px] border-brandGold px-[34px] pb-[20px] pl-[162px] pt-[24px]"
+                >
+                  <img
+                    class="absolute left-[36px] top-1/2 h-[-webkit-fill-available] max-w-[92px] -translate-y-1/2 object-contain"
+                    src="./assets/images/icon-areas-transito.svg"
+                    alt=""
+                  />
+                  <h3
+                    class="mb-3 mt-0 text-[30px] font-semibold leading-[1.08]"
+                  >
+                    Direito de Trânsito
+                  </h3>
+                  <p class="m-0 text-[20px] leading-[1.14]">
+                    Atuação em recursos de multas, suspensão e cassação da CNH,
+                    processos administrativos de trânsito e demais situações
+                    relacionadas à legislação de trânsito.
+                  </p>
+                </article>
+                <article
+                  class="relative min-h-[187px] rounded-[32px] border-[3px] border-brandGold px-[34px] pb-[20px] pl-[162px] pt-[24px]"
+                >
+                  <img
+                    class="absolute left-[44px] top-1/2 h-[-webkit-fill-available] max-w-[88px] -translate-y-1/2 object-contain"
+                    src="./assets/images/icon-areas-trabalhista.svg"
+                    alt=""
+                  />
+                  <h3
+                    class="mb-3 mt-0 text-[30px] font-semibold leading-[1.08]"
+                  >
+                    Direito Trabalhista
+                  </h3>
+                  <p class="m-0 text-[20px] leading-[1.14]">
+                    Atuação em causas trabalhistas, incluindo verbas
+                    rescisórias, horas extras, reconhecimento de vínculo
+                    empregatício, rescisão indireta e outras demandas
+                    relacionadas ao direito do trabalho.
+                  </p>
+                </article>
+                <article
+                  class="relative min-h-[187px] rounded-[32px] border-[3px] border-brandGold px-[34px] pb-[20px] pl-[162px] pt-[24px]"
+                >
+                  <img
+                    class="absolute left-[44px] top-1/2 h-[-webkit-fill-available] max-w-[88px] -translate-y-1/2 object-contain"
+                    src="./assets/images/icon-areas-consumidor.svg"
+                    alt=""
+                  />
+                  <h3
+                    class="mb-3 mt-0 text-[30px] font-semibold leading-[1.08]"
+                  >
+                    Direito do Consumidor
+                  </h3>
+                  <p class="m-0 text-[20px] leading-[1.14]">
+                    Atuação em casos de cobranças indevidas, problemas com
+                    produtos/serviços, negativação indevida, cancelamento de
+                    contratos e outras situações que envolvam o consumidor.
+                  </p>
+                </article>
+              </div>
+              <article
+                class="relative mx-auto mt-[75px] min-h-[187px] w-[827px] rounded-[32px] border-[3px] border-brandGold px-[34px] pb-[20px] pl-[162px] pt-[24px]"
+              >
+                <img
+                  class="absolute left-[44px] top-1/2 h-[-webkit-fill-available] max-w-[92px] -translate-y-1/2 object-contain"
+                  src="./assets/images/icon-areas-familia.svg"
+                  alt=""
+                />
+                <h3 class="mb-3 mt-0 text-[30px] font-semibold leading-[1.08]">
+                  Direito de Família e Sucessões (Inventário)
+                </h3>
+                <p class="m-0 text-[20px] leading-[1.14]">
+                  Atuação em casos de divórcio, pensão alimentícia, guarda de
+                  filhos, partilha de bens e processos de inventário, sempre
+                  buscando segurança jurídica e resolução adequada para cada
+                  situação.
+                </p>
+              </article>
+            </div>
+          </section>
+
+          <section
+            id="localizacao"
+            class="min-h-[1080px] bg-brandBrown pt-[117px] text-white"
+          >
+            <div
+              class="mx-auto grid w-[1600px] grid-cols-[926px_1fr] items-center gap-6"
+            >
+              <div>
+                <img
+                  src="./assets/images/mapa-brasil.svg"
+                  alt="Mapa do Brasil destacando Tocantins"
+                  class="h-[845px] w-[926px] object-contain"
+                />
+              </div>
+              <div>
+                <h2
+                  class="m-0 text-center text-[55px] font-semibold leading-[1.056]"
+                >
+                  Onde quer que você esteja...
+                </h2>
+                <img
+                  src="./assets/images/divider-gold.svg"
+                  alt=""
+                  class="mx-auto mt-5 block h-[14px] w-[397px] object-cover"
+                />
+                <p class="mt-6 text-[32px] leading-[1.056]">
+                  Nosso escritório está localizado em Paraíso do Tocantins - TO,
+                  mas atuamos em demandas jurídicas em todo o território
+                  nacional.
+                </p>
+                <a
+                  href="#contato"
+                  class="mt-8 inline-flex h-[65px] w-[365px] items-center justify-center gap-3 rounded-[5px] bg-brandGreen text-white no-underline"
+                >
+                  <img
+                    src="./assets/images/icon-whatsapp.svg"
+                    alt=""
+                    class="h-[39px] w-[39px] object-contain"
+                  />
+                  <span class="text-[28px] font-bold leading-none"
+                    >FALE CONOSCO</span
+                  >
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section class="min-h-[1080px]">
+            <div
+              class="mx-auto grid w-[1600px] grid-cols-[960px_1fr] items-center"
+            >
+              <div>
+                <img
+                  src="./assets/images/foto-cta.png"
+                  alt="Dra. Jucimeire segurando tablet"
+                  class="block w-full max-w-[960px]"
+                />
+              </div>
+              <div
+                class="-ml-[75px] min-h-[481px] w-[872px] rounded-[26px] bg-brandBlue px-[58px] pb-[66px] pt-[66px] text-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)]"
+              >
+                <h2 class="m-0 text-[52px] font-semibold leading-[1.056]">
+                  Comece a sua orientação jurídica agora!
+                </h2>
+                <p class="mt-4 text-[28px] leading-[1.056]">
+                  Se você precisa de orientação jurídica ou deseja entender
+                  melhor seus direitos, entre em contato agora mesmo. Nosso
+                  atendimento é rápido, seguro e preparado para analisar seu
+                  caso com atenção.
+                </p>
+                <a
+                  href="#contato"
+                  class="mt-[26px] inline-flex h-[65px] w-[365px] items-center justify-center gap-3 rounded-[5px] bg-brandGreen text-white no-underline"
+                >
+                  <img
+                    src="./assets/images/icon-whatsapp.svg"
+                    alt=""
+                    class="h-[39px] w-[39px] object-contain"
+                  />
+                  <span class="text-[28px] font-bold leading-none"
+                    >FALE CONOSCO</span
+                  >
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section
+            id="sobre"
+            class="min-h-[1080px] bg-[linear-gradient(90deg,rgba(13,31,60,0.98)_34%,rgba(13,31,60,0.84)_55%,rgba(13,31,60,0.28)_100%),url('./assets/images/bg-sobre.jpg')] bg-cover bg-center bg-no-repeat"
+          >
+            <div
+              class="mx-auto grid min-h-[1080px] w-[1600px] grid-cols-[685px_774px] items-center gap-[81px]"
+            >
+              <div>
+                <img
+                  src="./assets/images/foto-sobre.jpg"
+                  alt="Dra. Jucimeire sentada em poltrona azul"
+                  class="w-full max-w-[685px] rounded-2xl"
+                />
+              </div>
+              <div class="text-white">
+                <h2 class="m-0 text-[55px] font-semibold leading-[1.056]">
+                  Sobre mim
+                </h2>
+                <h3 class="mb-0 mt-6 text-[40px] font-semibold leading-[1.056]">
+                  Dra. Jucimeire Barbosa
+                </h3>
+                <h4 class="mb-4 mt-2 text-[40px] font-light leading-[1.056]">
+                  OAB/TO 9.389
+                </h4>
+                <p class="mt-3 text-[32px] font-light leading-[1.056]">
+                  Tocantinense, nascida na cidade de Paraíso do Tocantins, onde
+                  cresci e onde permanecem minha família e minhas raízes.
+                  Educadora apaixonada, que acredita que a educação transforma
+                  vidas.
+                </p>
+                <p class="mt-3 text-[32px] font-light leading-[1.056]">
+                  Sempre fui inconformada com injustiças, e acredito que cada
+                  pessoa merece ser ouvida, respeitada e ter seus direitos
+                  garantidos.
+                </p>
+                <p class="mt-3 text-[32px] font-light leading-[1.056]">
+                  Com o tempo, senti que era momento de recomeçar. Enfrentando
+                  desafios e superando medos, decidi renascer profissionalmente
+                  e trilhar um novo caminho. Essa jornada fortaleceu ainda mais
+                  meu propósito de trabalhar com pessoas, contribuir para suas
+                  histórias e ajudar a construir caminhos com mais dignidade,
+                  segurança e justiça.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section id="diferenciais" class="min-h-[1080px] bg-white pt-[191px]">
+            <div class="mx-auto w-[1600px]">
+              <div
+                class="relative min-h-[769px] rounded-[39px] bg-brandBlue px-[67px] pb-[70px] pt-[89px] text-white"
+              >
+                <div
+                  class="absolute left-1/2 top-[-71px] flex h-[142px] w-[142px] -translate-x-1/2 items-center justify-center"
+                >
+                  <img
+                    src="./assets/images/icon-diferenciais.svg"
+                    alt=""
+                    class="h-[142px] w-[142px] object-contain"
+                  />
+                </div>
+                <h2
+                  class="m-0 mt-[6px] text-center text-[55px] font-semibold leading-[1.056] text-brandGold"
+                >
+                  Nossos diferenciais
+                </h2>
+                <img
+                  src="./assets/images/divider-light.svg"
+                  alt=""
+                  class="mx-auto mt-5 block h-[14px] w-[397px] object-cover"
+                />
+                <div class="mt-[74px]">
+                  <article>
+                    <h3 class="m-0 text-[40px] font-semibold leading-[1.056]">
+                      Especialização em Sucessões e Direito Previdenciário
+                    </h3>
+                    <p class="mt-2 text-[32px] font-light leading-[1.056]">
+                      Atuação focada em processos de inventário, planejamento
+                      sucessório e na garantia de direitos previdenciários,
+                      oferecendo orientação jurídica segura e estratégica.
+                    </p>
+                  </article>
+                  <article class="mt-[26px]">
+                    <h3 class="m-0 text-[40px] font-semibold leading-[1.056]">
+                      Atendimento Humanizado e Personalizado
+                    </h3>
+                    <p class="mt-2 text-[32px] font-light leading-[1.056]">
+                      Cada cliente possui uma história e uma necessidade
+                      específica. Por isso, oferecemos um atendimento atento e
+                      dedicado, buscando compreender cada situação para oferecer
+                      a melhor orientação jurídica.
+                    </p>
+                  </article>
+                  <article class="mt-[26px]">
+                    <h3 class="m-0 text-[40px] font-semibold leading-[1.056]">
+                      Clareza e Segurança em Cada Etapa do Processo
+                    </h3>
+                    <p class="mt-2 text-[32px] font-light leading-[1.056]">
+                      Prezamos pela transparência e pela comunicação clara
+                      durante todo o acompanhamento do caso, garantindo que o
+                      cliente esteja sempre informado e seguro sobre cada
+                      decisão jurídica.
+                    </p>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section
+            id="duvidas"
+            class="min-h-[1080px] bg-brandBrown pt-[250px] text-white"
+          >
+            <div class="mx-auto w-[1600px]">
+              <h2
+                class="m-0 text-center text-[55px] font-semibold leading-[1.056]"
+              >
+                Dúvidas frequentes
+              </h2>
+              <img
+                src="./assets/images/divider-light.svg"
+                alt=""
+                class="mx-auto mt-5 block h-[14px] w-[397px] object-cover"
+              />
+              <div
+                class="faq-wrap mt-[81px] overflow-hidden rounded-[12px] bg-white"
+              >
+                <div class="faq-item border-b border-inputStroke">
+                  <button
+                    class="faq-trigger flex w-full items-center justify-between bg-white p-4 text-left text-[24px] font-bold text-brandBlue"
+                    type="button"
+                    aria-expanded="true"
+                  >
+                    É verdade que não pode vender um imóvel se não fizer
+                    inventário?
+                  </button>
+                  <div class="faq-content is-open">
+                    <p>
+                      Sim. Quando o proprietário falece, o imóvel passa a fazer
+                      parte da herança. Para vender, transferir ou regularizar o
+                      bem, é necessário realizar o inventário.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq-item border-b border-inputStroke">
+                  <button
+                    class="faq-trigger flex w-full items-center justify-between bg-white p-4 text-left text-[24px] font-bold text-brandBlue"
+                    type="button"
+                    aria-expanded="false"
+                  >
+                    Você sabia que, em alguns casos, mesmo quando o proprietário
+                    falece e o inventário não é feito, o imóvel pode ser
+                    regularizado por usucapião?
+                  </button>
+                  <div class="faq-content">
+                    <p>
+                      Sim, desde que sejam cumpridos os requisitos legais no
+                      caso concreto.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq-item border-b border-inputStroke">
+                  <button
+                    class="faq-trigger flex w-full items-center justify-between bg-white p-4 text-left text-[24px] font-bold text-brandBlue"
+                    type="button"
+                    aria-expanded="false"
+                  >
+                    Você sabe quem pode receber o BPC/LOAS? Muitas pessoas têm
+                    direito e não sabem.
+                  </button>
+                  <div class="faq-content">
+                    <p>
+                      Pessoas idosas e pessoas com deficiência em situação de
+                      vulnerabilidade, conforme critérios da legislação vigente.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq-item border-b border-inputStroke">
+                  <button
+                    class="faq-trigger flex w-full items-center justify-between bg-white p-4 text-left text-[24px] font-bold text-brandBlue"
+                    type="button"
+                    aria-expanded="false"
+                  >
+                    Você sabia que trabalhadores rurais podem se aposentar mais
+                    cedo que trabalhadores da cidade?
+                  </button>
+                  <div class="faq-content">
+                    <p>
+                      Sim. Regras específicas podem reduzir idade e tempo mínimo
+                      de contribuição para segurados especiais.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <button
+                    class="faq-trigger flex w-full items-center justify-between bg-white p-4 text-left text-[24px] font-bold text-brandBlue"
+                    type="button"
+                    aria-expanded="false"
+                  >
+                    Os anos trabalhados sem carteira assinada não significam
+                    perda de tempo para aposentadoria.
+                  </button>
+                  <div class="faq-content">
+                    <p>
+                      Com documentação adequada, é possível reconhecer períodos
+                      laborados sem registro para fins previdenciários.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section
+            id="fale-conosco"
+            class="flex min-h-[650px] items-center bg-[linear-gradient(90deg,rgba(2,25,45,0.96)_0%,rgba(2,25,45,0.72)_38%,rgba(2,25,45,0.2)_100%),url('./assets/images/bg-final-cta.jpg')] bg-cover bg-center bg-no-repeat"
+          >
+            <div class="mx-auto w-[1600px] text-center">
+              <h2 class="m-0 text-[64px] font-medium leading-none text-white">
+                Como podemos te ajudar?
+              </h2>
+              <a
+                href="#contato"
+                class="mt-[34px] inline-flex h-[65px] w-[365px] items-center justify-center gap-3 rounded-[5px] bg-brandGreen text-white no-underline"
+              >
+                <img
+                  src="./assets/images/icon-whatsapp.svg"
+                  alt=""
+                  class="h-[39px] w-[39px] object-contain"
+                />
+                <span class="text-[28px] font-bold leading-none"
+                  >FALE CONOSCO</span
+                >
+              </a>
+            </div>
+          </section>
+        </main>
+
+        <footer
+          id="contato"
+          class="relative min-h-[402px] bg-brandBlue text-white"
+        >
+          <div class="relative mx-auto h-[402px] w-[1920px]">
+            <img
+              src="./assets/images/logo-footer.png"
+              alt="Logotipo branco Jucimeire Barbosa"
+              class="absolute left-[366px] top-[68px] h-[163px] w-[270px] object-cover"
+            />
+
+            <div
+              class="absolute left-[683px] top-[120px] flex items-center gap-10"
+            >
+              <img
+                src="./assets/images/icon-footer-phone.svg"
+                alt=""
+                class="h-[50px] w-[50px] object-contain"
+              />
+              <div>
+                <h3 class="m-0 text-[24px] font-semibold leading-none">
+                  Contato
+                </h3>
+                <p class="mt-5 whitespace-nowrap text-[16px] leading-none">
+                  (63) 99215-5637
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="absolute left-[928px] top-[120px] flex items-center gap-10"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                class="h-[50px] w-[50px]"
+              >
+                <rect
+                  x="4"
+                  y="6"
+                  width="16"
+                  height="12"
+                  rx="2"
+                  fill="none"
+                  stroke="white"
+                  stroke-width="1.4"
+                ></rect>
+                <path
+                  d="M4.8 7.2L12 12.8L19.2 7.2"
+                  fill="none"
+                  stroke="white"
+                  stroke-width="1.4"
+                ></path>
+              </svg>
+              <div>
+                <h3 class="m-0 text-[24px] font-semibold leading-none">
+                  E-mail
+                </h3>
+                <p
+                  class="mt-5 whitespace-nowrap text-[16px] lowercase leading-none"
+                >
+                  jucimeire007@yahoo.com.br
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="absolute left-[1268px] top-[120px] flex items-center gap-10"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                class="h-[50px] w-[50px]"
+              >
+                <path
+                  d="M12 21C16.8 15.7 19 12.8 19 9.5C19 5.9 15.9 3 12 3C8.1 3 5 5.9 5 9.5C5 12.8 7.2 15.7 12 21Z"
+                  fill="none"
+                  stroke="white"
+                  stroke-width="1.4"
+                ></path>
+                <circle
+                  cx="12"
+                  cy="9.5"
+                  r="2.5"
+                  fill="none"
+                  stroke="white"
+                  stroke-width="1.4"
+                ></circle>
+              </svg>
+              <div>
+                <h3 class="m-0 text-[24px] font-semibold leading-none">
+                  Endereço
+                </h3>
+                <p class="mt-5 whitespace-nowrap text-[16px] leading-none">
+                  Paraíso do Tocantins - TO
+                </p>
+              </div>
+            </div>
+
+            <img
+              src="./assets/images/footer-divider.svg"
+              alt=""
+              class="absolute left-[334px] top-[329px] h-[1px] w-[1251px]"
+            />
+            <p
+              class="absolute left-1/2 top-[272px] m-0 -translate-x-1/2 whitespace-nowrap text-[18px] font-bold leading-[48px]"
+            >
+              TODOS OS DIREITOS RESERVADOS ©
+            </p>
+            <div
+              class="absolute left-1/2 top-[346px] flex -translate-x-1/2 items-center gap-[10px] text-[16px]"
+            >
+              <img
+                src="./assets/images/icon-code-slash.svg"
+                alt=""
+                class="h-[20px] w-[20px] object-contain"
+              />
+              <span>Desenvolvido por Future - Agência Digital</span>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <a
+      href="#contato"
+      class="fixed bottom-5 right-[184px] z-[100] h-[110px] w-[110px] rounded-full"
+      aria-label="Ir para contato via WhatsApp"
+    >
+      <img
+        src="./assets/images/btn-whatsapp-floating.svg"
+        alt=""
+        class="block h-full w-full"
+      />
+    </a>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
